@@ -1,0 +1,109 @@
+body {
+    font-family: "Roboto Mono",sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: linear-gradient(to right, #e0d2be, #FF6A88); */
+    /* background: linear-gradient(to left, #e67f65, #dacabd);  */
+    background: linear-gradient(to right, #1f362f, #d6d0cb); 
+}
+
+.logo {
+    width: 220px;
+    
+}
+
+.pages {
+    display: flex;
+    list-style: none;
+}
+
+.items {
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.items::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #330c09;
+    display: block;
+    margin-right: auto;
+    transition:0.5s;
+}
+.items:hover::after{
+    width: 60%;
+}
+
+.sub-items{
+    margin-right: 55px;
+    font-weight: 500;
+    color: rgba(62, 40, 40, 0.75);
+    text-decoration: none;
+}
+
+.main{
+    margin-top: 30px;
+}
+
+.about{
+    position: relative;
+    background-color: #66726e;
+    height: 325px;
+    color: white;
+    clip-path: polygon(0 100%, 50% 60%, 100% 100%, 100% 0, 0 0);
+}
+
+.heading1{
+    text-align: center; 
+    padding-top: 5px;
+    
+   
+}
+
+.para-text{
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.table{}
+
+.HImage1{
+    height: 320px;
+    width: 500px;
+    margin-left: 70px;
+}
+.HImage2{
+    height: 320px;
+    width: 500px;
+    margin-right: 70px;
+}
+
+.HText{
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.Img01{
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -4px;
+    font-weight: 400;
+}
+
+.HImage03{
+    height: 400px;
+    margin-left: 450px;
+    margin-right: auto;
+    margin-top: -30px;
+}
