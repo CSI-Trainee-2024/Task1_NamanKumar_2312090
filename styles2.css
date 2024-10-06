@@ -54,3 +54,15 @@ body{
     margin-left: 40%;
     width: 100px;
 }
+
+
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    gap: 20px;
+    row-gap: 50px;
+    padding: 20px;
+    width:auto;
+}
