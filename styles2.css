@@ -53,6 +53,11 @@ body{
     transform: scale(1.8);
     margin-left: 40%;
     width: 100px;
+    background-color: #da9c66;
+}
+
+.add-button:hover{
+    background-color:#ffae68 ;
 }
 
 
@@ -65,4 +70,16 @@ body{
     row-gap: 50px;
     padding: 20px;
     width:auto;
+}
+
+.footer{
+ background-color: #333;
+ height: 60px;
+ margin-bottom: -33px;
+}
+
+.footer-text{
+    font-size: 35px;
+    color: antiquewhite;
+    text-align: center;
 }
