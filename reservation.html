@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <title>Reservation Page</title>
+</head>
+<body>
+    <header class="header">
+        <div><img src="/SaffronSpoons/assets/logo_withoutBG.png" class="logo" alt="SaffronSpoons"></div>
+        <nav>
+            <ul class="pages">
+                <li class="items"><a class="sub-items" href="index.html">Home</a></li>
+                <li class="items"><a class="sub-items" href="menu.html">Menu</a></li>
+                <li class="items"><a class="sub-items" href="reservation.html">Reservation</a></li>
+                <li class="items"><a class="sub-items" href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="reservation">
+        <h1 class="heading1">Book Your Table</h1>
+        <form class="reservation-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="time" id="time" required>
+            </div>
+            <div class="form-group">
+                <label for="people">Number of Guests:</label>
+                <select id="people" required>
+                    <!-- <option value="Number of guests" disable selected></option> -->
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8+</option>
+                </select>
+                <div class="form-group2">
+                    <label for="table-type">Table Type:</label>
+                    <span id="table-type">
+                        <input id="basic-type" type="radio" name="Ttype" value="Basic">
+                        <label for="basic-type">Basic</label>
+                        <input id="delux-type" type="radio" name="Ttype" value="Basic">
+                        <label for="delux-type">Delux</label>
+                        <input id="vip-type" type="radio" name="Ttype" value="Basic">
+                        <label for="vip-type">VIP</label>
+                    </span>
+
+                </div>
+            </div>
+            <button type="submit" class="submit-btn">Reserve Now</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SaffronSpoons. All rights reserved.</p>
+    </footer>
+</body>
+</html>

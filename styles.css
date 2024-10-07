@@ -52,9 +52,10 @@ body {
 
 .about{
     position: relative;
-    background-color: #66726e;
+    background: linear-gradient(to right, #f2f6f5, #beb083);
+    color: rgba(62, 40, 40, 0.75);
+    /* font-family: sans-serif; */
     height: 325px;
-    color: white;
     clip-path: polygon(0 100%, 50% 60%, 100% 100%, 100% 0, 0 0);
 }
 
@@ -70,9 +71,18 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 17px;
+    font-weight: 600;
 }
 
-.table{}
+.table{
+    background-image: url(/SaffronSpoons/assets/HomePage01.png);
+    background-blend-mode: darken;
+    background-color: rgba(90, 80, 80, 0.5);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
 
 .HImage1{
     height: 320px;
