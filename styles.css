@@ -10,6 +10,8 @@ body {
     /* background: linear-gradient(to right, #e0d2be, #FF6A88); */
     /* background: linear-gradient(to left, #e67f65, #dacabd);  */
     background: linear-gradient(to right, #1f362f, #d6d0cb);
+    /* position: fixed; */
+    overflow: auto;
 }
 
 .logo {
@@ -77,7 +79,7 @@ body {
 
 .table{
     padding: 10px;
-    background-image: url(/SaffronSpoons/assets/HomePage01.png);
+    background-image: url(./assets/HomePage01.png);
     background-blend-mode: darken;
     background-color: rgba(90, 80, 80, 0.5);
     background-position: center;
